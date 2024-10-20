@@ -1,0 +1,27 @@
+.wrapperSearch {
+  box-sizing: border-box;
+  width: 440px;
+  margin: 10px 0;
+  border: 2px solid rgb(40, 41, 40);
+  border-radius: 6px;
+  padding: 12px;
+  background: #e2ecf8;
+}
+
+.labelSearch {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.inputSearch {
+  width: 95%;
+  height: 30px;
+  font-size: 16px;
+  padding-left: 8px;
+  margin-top: 8px;
+  border-radius: 7px;
+}
+.inputSearch:focus {
+  outline: none;
+  border: 2px solid blue;
+}
